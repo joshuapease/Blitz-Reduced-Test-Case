@@ -1,0 +1,22 @@
+dateModified: 1687907154
+email:
+  fromEmail: joshua.pease@viget.com
+  fromName: 'Blitz Reduced Test Case'
+  transportType: craft\mail\transportadapters\Sendmail
+meta:
+  __names__:
+    960aeeda-a249-4ef7-a026-47447c3dc8ad: 'Blitz Reduced Test Case' # Blitz Reduced Test Case
+    a58a422e-c7eb-4639-a6de-377c1f401ee2: 'Blitz Reduced Test Case' # Blitz Reduced Test Case
+    ee33c2f5-7b75-4ada-ad40-7540ac2fcb3d: Common # Common
+system:
+  edition: solo
+  live: true
+  name: 'Blitz Reduced Test Case'
+  schemaVersion: 4.4.0.4
+  timeZone: America/Los_Angeles
+users:
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoSubpath: null
+  photoVolumeUid: null
+  requireEmailVerification: true
