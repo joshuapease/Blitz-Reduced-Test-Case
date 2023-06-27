@@ -54,19 +54,19 @@ return [
         //],
 
         // The purger type to use.
-        'cachePurgerType' => 'putyourlightson\blitzcloudfront\CloudFrontPurger',
+        // 'cachePurgerType' => 'putyourlightson\blitzcloudfront\CloudFrontPurger',
 
         // The purger settings (zone ID keys are site UIDs).
-        'cachePurgerSettings' => [
-            'apiKey' => App::env('S3_ACCESS_KEY_ID'),
-            'apiSecret' => App::env('S3_SECRET_ACCESS_KEY'),
-            'distributionId' => App::env('S3_CLOUDFRONT_DISTRIBUTION_ID'),
-        ],
+        // 'cachePurgerSettings' => [
+        //     'apiKey' => App::env('S3_ACCESS_KEY_ID'),
+        //     'apiSecret' => App::env('S3_SECRET_ACCESS_KEY'),
+        //     'distributionId' => App::env('S3_CLOUDFRONT_DISTRIBUTION_ID'),
+        // ],
 
-        // The purger type classes to add to the plugin’s default purger types.
-        'cachePurgerTypes' => [
-           'putyourlightson\blitzcloudfront\CloudFrontPurger',
-        ],
+        // // The purger type classes to add to the plugin’s default purger types.
+        // 'cachePurgerTypes' => [
+        //    'putyourlightson\blitzcloudfront\CloudFrontPurger',
+        // ],
 
         // Whether URLs with query strings should be cached and how.
         // - `0`: Do not cache URLs with query strings
