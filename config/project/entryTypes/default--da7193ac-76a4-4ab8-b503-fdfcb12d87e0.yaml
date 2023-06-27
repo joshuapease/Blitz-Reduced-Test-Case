@@ -1,0 +1,55 @@
+fieldLayouts:
+  26fe95d8-c81b-4362-bd64-3e1eb735136e:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 624067d6-e1fb-48bb-9373-ab759b06f227
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 66568a7d-9768-46e2-8ef8-7ab9b9a854ea # Profile Image
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: d865a5b8-f0f2-4a27-ab1f-542a3a8ca5e0
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 402035f4-1f6d-49c1-a715-e915f716f3ae
+        userCondition: null
+handle: default
+hasTitleField: true
+name: Default
+section: 428fabb0-b791-44d9-a333-e3194b47d9c5 # People
+sortOrder: 1
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

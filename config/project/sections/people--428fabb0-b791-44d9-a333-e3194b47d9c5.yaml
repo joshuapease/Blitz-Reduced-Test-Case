@@ -1,0 +1,12 @@
+defaultPlacement: end
+enableVersioning: true
+handle: people
+name: People
+propagationMethod: all
+siteSettings:
+  960aeeda-a249-4ef7-a026-47447c3dc8ad: # Blitz Reduced Test Case
+    enabledByDefault: true
+    hasUrls: true
+    template: people/_entry
+    uriFormat: 'people/{slug}'
+type: channel

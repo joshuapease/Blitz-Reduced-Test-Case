@@ -1,17 +1,30 @@
-dateModified: 1687907546
+dateModified: 1687908093
 email:
   fromEmail: joshua.pease@viget.com
   fromName: 'Blitz Reduced Test Case'
   transportType: craft\mail\transportadapters\Sendmail
+fs:
+  localFilesystem:
+    hasUrls: true
+    name: 'Local Filesystem'
+    settings:
+      path: '@webroot/uploads'
+    type: craft\fs\Local
+    url: /uploads
 meta:
   __names__:
+    428fabb0-b791-44d9-a333-e3194b47d9c5: People # People
     960aeeda-a249-4ef7-a026-47447c3dc8ad: 'Blitz Reduced Test Case' # Blitz Reduced Test Case
+    66568a7d-9768-46e2-8ef8-7ab9b9a854ea: 'Profile Image' # Profile Image
     a58a422e-c7eb-4639-a6de-377c1f401ee2: 'Blitz Reduced Test Case' # Blitz Reduced Test Case
+    d02706dc-9f7b-4e42-ada5-8261c2d9cb9f: Local # Local
+    da7193ac-76a4-4ab8-b503-fdfcb12d87e0: Default # Default
     ee33c2f5-7b75-4ada-ad40-7540ac2fcb3d: Common # Common
 plugins:
   blitz:
     edition: standard
     enabled: true
+    licenseKey: SIEN8ZMVGMZQ35GV3FA7WCA9
     schemaVersion: 4.4.0
 system:
   edition: solo
